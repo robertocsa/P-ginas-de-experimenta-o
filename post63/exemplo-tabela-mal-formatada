@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Exemplo de Tabela Mal Formatada com Divs</title>
+  <style>
+    .table {
+      display: table;
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    .row {
+      display: table-row;
+    }
+
+    .cell {
+      display: table-cell;
+      border: 1px solid #ccc;
+      padding: 8px;
+    }
+
+    .header {
+      font-weight: bold;
+      background: #eee;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Exemplo de Tabela Mal Formatada (Feita com Divs)</h2>
+
+  <div class="table">
+    <div class="row header">
+      <div class="cell">Nome</div>
+      <div class="cell">Idade</div>
+      <div class="cell">Profissão</div>
+    </div>
+    <div class="row">
+      <div class="cell">Ana</div>
+      <div class="cell">28</div>
+      <div class="cell">Engenheira</div>
+    </div>
+    <div class="row">
+      <div class="cell">Carlos</div>
+      <div class="cell">35</div>
+      <div class="cell">Professor</div>
+    </div>
+    <div class="row">
+      <div class="cell">Luiza</div>
+      <div class="cell">41</div>
+      <div class="cell">Médica</div>
+    </div>
+  </div>
+
+  <p><strong>⚠️ Observação:</strong> Apesar de parecer uma tabela, essa estrutura usa apenas <code>&lt;div&gt;</code>s. Se você copiar e colar no Excel, as informações ficarão desorganizadas.</p>
+
+</body>
+</html>
