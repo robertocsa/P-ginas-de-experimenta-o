@@ -1,2 +1,2 @@
-# P-ginas-de-experimenta-o
+# Paginas-de-experimentacao
 Páginas de experimentações diversas
